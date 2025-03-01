@@ -1,0 +1,177 @@
+/* 定义字体 */
+@font-face {
+    font-family: 'HarmonyOS';  /* 定义一个字体名 */
+    src: url('../fonts/HarmonyOS_Sans_Regular.ttf') format('truetype'); /* 引入truetype格式的字体 */
+    font-weight: normal;  /* 字体粗细 */
+    font-style: normal;  /* 字体风格 */
+}
+
+* {
+    font-family: 'HarmonyOS', sans-serif; /* 这将为所有元素设置默认字体 */
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.full {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 使用视口高度 */
+    overflow: hidden;
+    background-image: url('../img/bg.png'); /* 替换为你的图片路径 */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100;
+    text-align: center;
+    opacity: 0.70; /* 设置背景图片的不透明度 */
+}
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 容器高度 */
+}
+.header div {
+    font-size: 2em; /* 根据需要调整字体大小 */
+    background: linear-gradient(to right,#00ff22 , #0059ff); /* 定义渐变色 */
+    -webkit-background-clip: text; /* Chrome, Safari */
+    background-clip: text;
+    color: transparent; /* 使文字颜色透明，以显示背景 */
+    -webkit-text-fill-color: transparent; /* Chrome, Safari */
+}
+
+
+
+
+h2 {
+    position: relative; /* 使伪元素可以相对于h2定位 */
+    display: inline-block; /* 使relative定位生效 */
+    padding-left: 20px; /* 确保有足够的空间显示伪元素 */
+    margin-top: 50px; /* 确保文本内容不会与伪元素重叠 */
+}
+
+h2::before {
+    content: ""; /* 必须的属性，即使没有内容 */
+    position: absolute;
+    left: 0; /* 伪元素从h2的左边开始 */
+    display: block;
+    top: 50%;
+    width: 7px; /* 伪元素的宽度 */
+    height: 30px; /* 伪元素的高度 */
+    background-color: blue; /* 伪元素的背景颜色 */
+    transform: translateY(-50%); /* 垂直居中 */
+    border-radius: 3px; /* 可选：添加圆角 */
+}
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: white; /* 设置导航栏背景为白色 */
+    padding: 5px 0;
+    position: fixed; /* 固定位置 */
+    top: 0; /* 导航栏固定在顶部 */
+    width: 100%; /* 导航栏宽度为100% */
+    z-index: 1000; /* 确保导航栏在页面内容上方 */
+}
+nav a {
+    color: black; /* 设置文字颜色为黑色 */
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px; /* 导航项之间的间距 */
+    border-radius: 7px; /* 设置圆角矩形 */
+    transition: background 0.5s; /* 鼠标悬停时的过渡效果 */
+}
+nav a:hover {
+    background: #ddd; /* 鼠标悬停时的背景色 */
+}
+
+
+
+
+/* 内容区域样式 */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 2%; /* 边距为父元素宽度的2% */
+    overflow: hidden;
+    position: relative; /* 为下划线定位 */
+}
+
+.container a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative; /* 确保::after伪元素可以相对于链接定位 */
+}
+
+.container a::after {
+    content: '';
+    position: absolute;
+    left: 0; /* 从链接的左侧开始 */
+    bottom: -2px; /* 根据链接文本的底部位置调整 */
+    width: 100%; /* 与链接文本宽度一致 */
+    height: 2px; /* 下划线的厚度 */
+    background-color: transparent;
+    transition: background-color 0.3s; /* 平滑过渡效果 */
+}
+
+.container a:hover::after, 
+.container a.active::after {
+    background-color: #2575fc; /* 激活或悬停时的下划线颜色 */
+}
+
+.container button {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    margin: 0; /* 确保没有外边距影响位置 */
+    /* 按钮尺寸 */
+    padding: 10px 20px; /* 垂直和水平内边距 */
+    font-size: 16px; /* 字体大小 */
+    /* 按钮颜色和背景 */
+    background-color: #007BFF; /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    /* 按钮边框 */
+    border: none; /* 无边框 */
+    border-radius: 5px; /* 圆角边框 */
+    /* 文字和按钮的布局 */
+    text-align: center; /* 文字居中 */
+    cursor: pointer; /* 鼠标悬停时显示手形图标 */
+    /* 按钮的过渡效果 */
+    transition: background-color 0.3s ease; /* 背景颜色变化的过渡效果 */
+}
+.container button:hover {
+    background-color: #0056b3; /* 悬停时的背景颜色 */
+}
+.container button:active {
+    background-color: #00408d; /* 按下时的背景颜色 */
+}
+
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+}
