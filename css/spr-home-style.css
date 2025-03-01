@@ -97,7 +97,7 @@ body {
 
 }
 
-#zyyo-loading {
+#spr-loading {
     background: radial-gradient(white, #d8eaff);
     background-size: 100%;
     background-position: center;
@@ -117,7 +117,7 @@ body {
 
 
 
-#zyyo-loading-center {
+#spr-loading-center {
     height: 150px;
     width: 150px;
     position: relative;
@@ -146,7 +146,7 @@ body {
 
 
 
-.zyyo-filter {
+.spr-filter {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -157,7 +157,7 @@ body {
    
 }
 
-.zyyo-main {
+.spr-main {
     width: 100%;
     margin: 0 auto;
     transition: transform 0.5s ease;
@@ -168,7 +168,7 @@ body {
 }
 
 
-.zyyo-left {
+.spr-left {
     overflow-y: scroll;
     width: 230px;
     height: 100vh;
@@ -182,7 +182,7 @@ body {
 }
 
 
-.zyyo-left::-webkit-scrollbar {
+.spr-left::-webkit-scrollbar {
     display: none;
 }
 
@@ -294,7 +294,7 @@ body {
 
 
 
-.zyyo-right {
+.spr-right {
     width: calc(100% - 230px);
     display: flex;
     padding: 20px;
@@ -637,7 +637,7 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .zyyo-left {
+    .spr-left {
         display: none;
     }
 
@@ -670,7 +670,7 @@ footer {
 
 
 
-    .zyyo-right {
+    .spr-right {
         width: 100%;
     }
 
