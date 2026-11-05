@@ -1,0 +1,17 @@
+{
+    "ServerKind": 0,
+    "CoreVersion": "2.0.0.0",
+    "OrganizationName": "SPR-Team",
+    "ClassPlanSource": {
+        "Value": "https://static.shanshui.site/classisland/data/{id}/ClassPlans.json",
+        "Version": 1
+    },
+    "TimeLayoutSource": {
+        "Value": "https://static.shanshui.site/classisland/data/{id}/TimeLayouts.json",
+        "Version": 1
+    },
+    "SubjectsSource": {
+        "Value": "https://static.shanshui.site/classisland/data/{id}/Subjects.json",
+        "Version": 1
+    }
+}
