@@ -4,14 +4,14 @@
     "OrganizationName": "SPR-Team",
     "ClassPlanSource": {
         "Value": "https://static.shanshui.site/classisland/data/{id}/ClassPlans.json",
-        "Version": 1
+        "Version": 2
     },
     "TimeLayoutSource": {
         "Value": "https://static.shanshui.site/classisland/data/{id}/TimeLayouts.json",
-        "Version": 1
+        "Version": 2
     },
     "SubjectsSource": {
         "Value": "https://static.shanshui.site/classisland/data/{id}/Subjects.json",
-        "Version": 1
+        "Version": 2
     }
 }

@@ -98,6 +98,14 @@
             "IsOutDoor": false,
             "AttachedObjects": {},
             "IsActive": false
+        },
+        "1f23dc73-8f21-49fe-87f4-65dc4f2d7c41": {
+            "Name": "\u4F53\u6D3B",
+            "Initial": "\u6D3B",
+            "TeacherName": "",
+            "IsOutDoor": true,
+            "AttachedObjects": {},
+            "IsActive": false
         }
     }
 }

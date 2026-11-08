@@ -834,8 +834,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "06:50:00",
-                    "EndTime": "07:25:00",
+                    "StartTime": "07:00:00",
+                    "EndTime": "07:30:00",
                     "TimeType": 0,
                     "IsHideDefault": true,
                     "DefaultClassId": "923f4a8b-51eb-468b-971d-bb02e7db0163",
@@ -866,8 +866,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "07:25:00",
-                    "EndTime": "07:35:00",
+                    "StartTime": "07:30:00",
+                    "EndTime": "07:40:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -886,9 +886,9 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "07:35:00",
-                    "EndTime": "07:45:00",
-                    "TimeType": 1,
+                    "StartTime": "07:40:00",
+                    "EndTime": "07:50:00",
+                    "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "9875b24c-470d-4195-8a6a-73925ea4808b",
                     "BreakName": "",
@@ -906,8 +906,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "07:45:00",
-                    "EndTime": "08:25:00",
+                    "StartTime": "07:50:00",
+                    "EndTime": "08:30:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -926,7 +926,7 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "08:25:00",
+                    "StartTime": "08:30:00",
                     "EndTime": "08:40:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
@@ -967,7 +967,7 @@
                     "StartSecond": "",
                     "EndSecond": "",
                     "StartTime": "09:20:00",
-                    "EndTime": "09:35:00",
+                    "EndTime": "09:30:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -986,8 +986,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "09:35:00",
-                    "EndTime": "10:15:00",
+                    "StartTime": "09:30:00",
+                    "EndTime": "10:10:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1006,8 +1006,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "10:15:00",
-                    "EndTime": "10:35:00",
+                    "StartTime": "10:10:00",
+                    "EndTime": "10:30:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1026,8 +1026,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "10:35:00",
-                    "EndTime": "11:15:00",
+                    "StartTime": "10:30:00",
+                    "EndTime": "11:10:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1046,8 +1046,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "11:15:00",
-                    "EndTime": "11:25:00",
+                    "StartTime": "11:10:00",
+                    "EndTime": "11:20:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1066,8 +1066,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "11:25:00",
-                    "EndTime": "12:05:00",
+                    "StartTime": "11:20:00",
+                    "EndTime": "12:00:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1086,8 +1086,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "12:05:00",
-                    "EndTime": "12:05:00",
+                    "StartTime": "12:00:00",
+                    "EndTime": "12:00:00",
                     "TimeType": 2,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1106,28 +1106,28 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
+                    "StartTime": "13:10:00",
+                    "EndTime": "13:15:00",
+                    "TimeType": 1,
+                    "IsHideDefault": false,
+                    "DefaultClassId": "00000000-0000-0000-0000-000000000000",
+                    "BreakName": "",
+                    "ActionSet": null,
+                    "AttachedObjects": {
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
+                    "IsActive": false
+                },
+                {
+                    "StartSecond": "",
+                    "EndSecond": "",
                     "StartTime": "13:15:00",
-                    "EndTime": "13:20:00",
-                    "TimeType": 1,
-                    "IsHideDefault": false,
-                    "DefaultClassId": "00000000-0000-0000-0000-000000000000",
-                    "BreakName": "",
-                    "ActionSet": null,
-                    "AttachedObjects": {
-                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
-                            "AlertShowMode": 2,
-                            "ForecastShowMode": 2,
-                            "IsAttachSettingsEnabled": true,
-                            "IsActive": false
-                        }
-                    },
-                    "IsActive": false
-                },
-                {
-                    "StartSecond": "",
-                    "EndSecond": "",
-                    "StartTime": "13:20:00",
-                    "EndTime": "14:00:00",
+                    "EndTime": "13:55:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1146,8 +1146,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "14:00:00",
-                    "EndTime": "14:15:00",
+                    "StartTime": "13:55:00",
+                    "EndTime": "14:05:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1166,8 +1166,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "14:15:00",
-                    "EndTime": "14:55:00",
+                    "StartTime": "14:05:00",
+                    "EndTime": "14:45:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1186,8 +1186,8 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "14:55:00",
-                    "EndTime": "15:10:00",
+                    "StartTime": "14:45:00",
+                    "EndTime": "15:00:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1206,9 +1206,29 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "15:10:00",
+                    "StartTime": "15:00:00",
+                    "EndTime": "15:40:00",
+                    "TimeType": 0,
+                    "IsHideDefault": false,
+                    "DefaultClassId": "00000000-0000-0000-0000-000000000000",
+                    "BreakName": "",
+                    "ActionSet": null,
+                    "AttachedObjects": {
+                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
+                            "AlertShowMode": 2,
+                            "ForecastShowMode": 2,
+                            "IsAttachSettingsEnabled": true,
+                            "IsActive": false
+                        }
+                    },
+                    "IsActive": false
+                },
+                {
+                    "StartSecond": "",
+                    "EndSecond": "",
+                    "StartTime": "15:40:00",
                     "EndTime": "15:50:00",
-                    "TimeType": 0,
+                    "TimeType": 1,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
                     "BreakName": "",
@@ -1227,27 +1247,7 @@
                     "StartSecond": "",
                     "EndSecond": "",
                     "StartTime": "15:50:00",
-                    "EndTime": "16:05:00",
-                    "TimeType": 1,
-                    "IsHideDefault": false,
-                    "DefaultClassId": "00000000-0000-0000-0000-000000000000",
-                    "BreakName": "",
-                    "ActionSet": null,
-                    "AttachedObjects": {
-                        "7625de96-38aa-4b71-b478-3f156dd9458d": {
-                            "AlertShowMode": 2,
-                            "ForecastShowMode": 2,
-                            "IsAttachSettingsEnabled": true,
-                            "IsActive": false
-                        }
-                    },
-                    "IsActive": false
-                },
-                {
-                    "StartSecond": "",
-                    "EndSecond": "",
-                    "StartTime": "16:05:00",
-                    "EndTime": "16:30:00",
+                    "EndTime": "16:35:00",
                     "TimeType": 0,
                     "IsHideDefault": false,
                     "DefaultClassId": "00000000-0000-0000-0000-000000000000",
@@ -1266,7 +1266,7 @@
                 {
                     "StartSecond": "",
                     "EndSecond": "",
-                    "StartTime": "16:30:00",
+                    "StartTime": "16:35:00",
                     "EndTime": "17:00:00",
                     "TimeType": 1,
                     "IsHideDefault": false,
